@@ -3,22 +3,28 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <header className="header">
+      <h1>Start BootStrap</h1>
+      <nav className="nav-bar">
+        <p className="nav-item">Services</p>
+        <p className="nav-item">Portfolio</p>
+        <p className="nav-item">About</p>
+        <p className="nav-item">Team</p>
+        <p className="nav-item">Contact</p>
+      </nav>
+      <img
+        
+        alt="burger menu"
+        src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg"
+      />
+      <nav className="mobile-nav-bar">
+        <p className="nav-item">Services</p>
+        <p className="nav-item">Portfolio</p>
+        <p className="nav-item">About</p>
+        <p className="nav-item">Team</p>
+        <p className="nav-item">Contact</p>
+      </nav>
+    </header>
   );
 }
 
